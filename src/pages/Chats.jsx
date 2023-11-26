@@ -6,6 +6,7 @@ import '../css/chatengine.css'
 
 import { useAuth } from "../context/AuthContext";
 import axios from "axios";
+import Navbar from "../components/Navbar";
 
 const Chats = () => {
   const navigate = useNavigate();
@@ -62,11 +63,7 @@ const Chats = () => {
   return (
     <div>
       <div >
-        <div className="">
-          <button onClick={handleLogout} className="bg-red-400">
-            Logout
-          </button>
-        </div>
+        <Navbar handleLogout={handleLogout}/>
         <ChatEngine
           height="calc(100vh - 66px)"
           projectID={import.meta.env.VITE_projectId}

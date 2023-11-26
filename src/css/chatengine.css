@@ -1,5 +1,16 @@
-.ce-primary-button span {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Quicksand:wght@700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ce-primary-button span, #ce-delete-chat-button{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#ce-ice-breaker-gif {
+    display: none;
+}
+
+

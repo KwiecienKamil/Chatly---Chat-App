@@ -10,7 +10,6 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
-
   useEffect(() => {
      auth.onAuthStateChanged((user) => {
         setUser(user)

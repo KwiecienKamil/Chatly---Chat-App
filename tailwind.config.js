@@ -10,6 +10,9 @@ export default {
         messBlue: "#006AFF",
         google: "#DB4437",
         github: "#171515"
+      },
+      fontFamily: {
+        logo: 'Manrope'
       }
     },
   },
