@@ -9,7 +9,7 @@ export default {
       colors: {
         messBlue: "#006AFF",
         google: "#DB4437",
-        fb: "#3b5998"
+        github: "#171515"
       }
     },
   },

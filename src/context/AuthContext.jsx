@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
         setLoading(false)
         if (user) navigate("/chats")
      })
-  }, [user, history]);
+  }, [user, navigate]);
 
   const value = {user};
   return (
