@@ -2,6 +2,7 @@ import React from "react";
 import { auth } from "../firebase";
 import { signInWithPopup, GoogleAuthProvider,} from "firebase/auth";
 import { FaGoogle } from "react-icons/fa";
+import firebase from 'firebase/app';
 
 
 const Login = () => {
