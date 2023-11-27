@@ -11,7 +11,7 @@ const Login = () => {
       .then((res) => {
         const credential = GoogleAuthProvider.credentialFromResult(res);
         const token = credential.accessToken;
-        const user = result.user;
+        const user = res.user;
       })
       .catch((err) => {
         console.log(err);
