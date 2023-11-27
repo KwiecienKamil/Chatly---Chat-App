@@ -2,7 +2,6 @@ import React from "react";
 import { auth } from "../firebase";
 import { signInWithPopup, GoogleAuthProvider,} from "firebase/auth";
 import { FaGoogle } from "react-icons/fa";
-import firebase from 'firebase/app';
 
 
 const Login = () => {
@@ -10,7 +9,9 @@ const Login = () => {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)
       .then((res) => {
-        credentialFromResult(res);
+        const credential = GoogleAuthProvider.credentialFromResult(res);
+        const token = credential.accessToken;
+        const user = result.user;
       })
       .catch((err) => {
         console.log(err);
