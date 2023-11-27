@@ -7,5 +7,8 @@ export default defineConfig({
   plugins: [react()],
   define: {
     'process.env.VITE_API_KEY':JSON.stringify(process.env.VITE_API_KEY)
+  },
+  build: {
+    commonjsOptions: { transformMixedEsModules: true }
   }
 })
