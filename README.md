@@ -1,6 +1,6 @@
 # React + ChatEngine + Tailwind + Firebase
 
-what I've learned:
+What I've learned:
 - Firebase setup, authorizing domains
 - Google Authentication using firebase
 - Using ChatEngine
