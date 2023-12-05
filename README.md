@@ -1,6 +1,7 @@
-# React + Vite
+# React + Tailwind + Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/KwiecienKamil/Chatly---Chat-App/assets/125808627/7a2c347d-eb1e-45d3-80ea-b8363fa63df6)
+
 
 Currently, two official plugins are available:
 
